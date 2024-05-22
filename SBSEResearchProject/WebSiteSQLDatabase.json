@@ -54,13 +54,13 @@
     "adminUsername": {
       "type": "string",
       "metadata": {
-        "description": "Admin username for the virtual machine."
+        "description": "Azureuser"
       }
     },
     "adminPassword": {
       "type": "secureString",
       "metadata": {
-        "description": "Admin password for the virtual machine."
+        "description": "Itpak2022@@"
       }
     },
     "vmSize": {
