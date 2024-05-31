@@ -10,10 +10,7 @@ Param(
     [string] $TemplateParametersFile = 'WebSiteSQLDatabase.parameters.json',
     [string] $ArtifactStagingDirectory = '.',
     [string] $DSCSourceFolder = 'DSC',
-    [switch] $ValidateOnly,
-    [string] $AdminUsername,
-    [string] $AdminPassword,
-    [string] $VMSize = 'Standard_DS1_v2'
+    [switch] $ValidateOnly
 )
 
 Set-Variable -Name DeploymentScriptVersion -Value "17.7.0" -Option Constant
@@ -143,4 +140,4 @@ else {
     }
 }
 
-Write-Host "End of script."
+ Write-Host "End of script."
